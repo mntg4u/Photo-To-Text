@@ -18,14 +18,14 @@ BOT_UPTIME = time.time()
 PORT = int(os.environ.get('PORT', '8080')) # input PORT
 ADMIN = int(os.environ.get('ADMIN', '0')) # input user id
 
-class ImageToLinkBot(Client):
+class Mnbot(Client):
     def __init__(self):
         super().__init__(
-            name="ImageToLinkBot",
+            name="Mnbot",
             api_id=API_ID,
             api_hash=API_HASH,
             bot_token=BOT_TOKEN,
-            plugins={"root": "MediaToLinkBot"},
+            plugins={"root": "MNBOTS"},
             workers=200,
             sleep_threshold=15,
         )
@@ -49,8 +49,7 @@ class ImageToLinkBot(Client):
         
     async def stop(self, *args):
         await super().stop()
-        print("Bot Stopped 🙄")
+        print("MnBot Stopped")
 
             
-ImageToLinkBot().run()
-#Rkn_AutoCaptionBot().run()
+Mnbot().run()
