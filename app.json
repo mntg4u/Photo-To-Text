@@ -1,9 +1,9 @@
 {
     "name": "BASE Bot",
-    "description": "Telegram File Renamer Bot ",
-    "logo": "https://graph.org/file/9dc402f2ba612e3f6dfbf.jpg",
-    "keywords": ["Renamer Bot", "Mongo DB"],    
-    "repository": "https://github.com/RknDeveloper/Rkn-Powerful-Rename-Bot",
+    "description": "An Simple Telegram Bot Repo",
+    "logo": "https://i.ibb.co/qLbX2qd4/mnbots.jpg",
+    "keywords": ["Mn Bot", "Mongo DB"],    
+    "repository": "https://github.com/mntg4u/telegram-bot-base",
     "env": {
         "API_ID": {
             "description": "Your APP ID From my.telegram.org ",
@@ -39,15 +39,9 @@
         },
         "DB_NAME":{ 
             "description":"Your Mongo DB Database Name ",
-            "value": "Rkn-Developer",
-            "required": false
-        },
-        "RKN_PIC": {
-            "description": "Your Bot start cmd Pic from @RKN_Telegraphbot",
-            "value": "https://graph.org/file/9dc402f2ba612e3f6dfbf.jpg",
+            "value": "MNTG4U",
             "required": false
         }
-    },
     "buildpacks": [
         {
             "url": "heroku/python"
