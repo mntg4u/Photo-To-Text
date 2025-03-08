@@ -1,4 +1,6 @@
-[![MN-BOTS](https://i.ibb.co/qLbX2qd/mnbots.jpg)](https://github.com/MN-BOTS/)
+<a href="https://github.com/MN-BOTS/">
+  <img src="https://i.ibb.co/qLbX2qd/mnbots.jpg" alt="mnbots" style="display: block; margin: auto;" border="0" height="500" width="500">
+</a>
 
 ## Configs 
 
