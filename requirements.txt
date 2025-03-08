@@ -3,3 +3,6 @@ TgCrypto
 catbox-uploader
 aiohttp
 pytz
+pytesseract
+Pillow
+
